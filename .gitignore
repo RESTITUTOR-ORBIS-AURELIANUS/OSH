@@ -1,0 +1,16 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+*.dSYM/
+/pager
+/pager.exe
+/tests/test_baselines
+/tests/test_online
+/tests/*_sanitized
+/tests/*_check
+/tests/*.exe
+/tests/generated/
+/tests/trace_analysis.json
+/build/
+/results/summary.json
+/results/*.tmp

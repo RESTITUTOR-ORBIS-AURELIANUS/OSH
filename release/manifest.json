@@ -1,0 +1,42 @@
+{
+  "version": "1.0.0",
+  "tag": "aer-v1.0.0",
+  "source_frozen_at_utc": "2026-10-28T12:00:45.998521+00:00",
+  "algorithm": "AER original 11-expert version; research_v2 candidates excluded",
+  "parameters": {
+    "window_factor": 32,
+    "temperature": 4,
+    "switch_cost": 0.5,
+    "replay": true
+  },
+  "default_frames": [
+    5,
+    10,
+    20,
+    50,
+    100
+  ],
+  "source_sha256": {
+    "pager.cpp": "0733e0a385ea5d4c1962d2b887cc55a65bf59535c21c479c9730cab346d116b4",
+    "include/adaptive.hpp": "d6a8d821540b2f57ce33ab5e36c2bdbc57ed8acba8cd82794e73d3e84a530212",
+    "include/baselines.hpp": "d037b4568aa647569f2237f327e53d688f8b6a5a31d91491d23ce26f5a537dbc",
+    "include/decay.hpp": "0592b853ba387c36843aecae860f756e67819cd0b768679b26aee3f13f398f3b",
+    "include/policy.hpp": "660c253ad5f248c69a5c8ef59b4b9c861da8710f5e5fb8f77f65b1e1182a7e82",
+    "include/predictive.hpp": "54073a8f3d6c2bfddcc2e009576b32f1ba7720e5921213f54864c695e35c65fb",
+    "include/replay.hpp": "930345af69642a98a8e6e35388c68650905ab90c0b5e4b5c2046719e936b0fa2",
+    "submission.cpp": "06b4e46e4a2e1a425b9350453617c49e47f5b6e1ea42ae7ef7d2c00c79beee1b"
+  },
+  "data_sha256": {
+    "data/lu.txt": "cb107ef1ec39aa860c00b03ff5461321e4f2cfdf629269e0fa8e03a4d533bdd7",
+    "data/mm16.txt": "745a77dd05e800a10da1443befa02b8dd4a103305cf5a04b6e5626763c7aa57a",
+    "data/mm32.txt": "bdbc4ac696998ce5dc5dfaa6206bc50773990469a13d68d38dd6a6262db2bd1a",
+    "data/sort1.txt": "2c93d419c3fc44c1f694fe0063e1ee808096204fd1753ffd7caf5b4889e7d67b"
+  },
+  "reference_results_sha256": {
+    "results/dev.csv": "c9fe305e1f0dbe0ba399fed9ff582eda39c2f1efd26fee5b6b2d84e914a0568e",
+    "results/holdout.csv": "a27c227b80fc7814a37227e5fa102a039e9ef49ebb41b6114f726eab593e7355",
+    "results/provided.csv": "72e305f1a3cc5fc4cb4c00143576364d6e62e4de1b049ec07d0f0217b1d2ee19"
+  },
+  "provided_mean_faults": 16834.1,
+  "provided_cases": 20
+}
